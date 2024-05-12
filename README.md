@@ -40,19 +40,19 @@ To run this application locally, follow these steps:
     pip install -r requirements.txt
     ```
 
-4. Set up your environment variables. Make sure to obtain an API key for the GenerativeAI API from Google and set it in a `.env` file.
-
+4. Set up your environment variables. Make sure to obtain an API key for the GenerativeAI API from Google and set it in a `.env` file.Go to this site to generate api key [HERE](https://aistudio.google.com) You can see left side generate api thn click and copy. Once you have the api key, locate the .env file in your project directory. Open it and paste your aoi key like this:
+   
     ```dotenv
     GOOGLE_API_KEY=your_api_key_here
     ```
 
-5. Run the Streamlit application.
+6. Run the Streamlit application.
 
     ```
     streamlit run app.py
     ```
 
-6. Access the application in your web browser at `http://localhost:8501`.
+7. Access the application in your web browser at `http://localhost:8501`.
 
 ## Usage
 
