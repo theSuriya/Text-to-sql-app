@@ -2,6 +2,11 @@
 
 This Streamlit application allows users to generate SQL queries from natural language prompts with ease.
 
+
+## Model in HuggingFcae
+
+Vist here to play with [SQL Generator APP](https://huggingface.co/spaces/suriya7/text-to-sql-example-explanation)
+
 ## Overview
 
 This tool utilizes the GenerativeAI API to translate natural language queries into SQL queries. It provides a simple interface for users to input their queries and generate corresponding SQL code. Additionally, the tool generates sample expected outputs and explanations for the generated SQL queries.
